@@ -1,3 +1,5 @@
+# Visita https://programapa.wordpress.com/2021/07/22/python-gdal-ogr/ donde explico qué hace este script
+
 # -*- coding: utf8 -*-
  
 import os, shutil
