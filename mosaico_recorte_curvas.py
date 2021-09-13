@@ -22,7 +22,7 @@ print(f'Creando la carpteta de salida -{carpeta}...')
 if os.path.exists(carpeta):
     shutil.rmtree(carpeta)
     os.mkdir(carpeta)
-    print('La carpeta ya esxistia y se ha sistituido por una nueva y vacia')
+    print('La carpeta ya existia y se ha sustituido por una nueva y vacia')
 else:
     os.mkdir(carpeta)
     print('Carpeta creada')
