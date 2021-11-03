@@ -2,7 +2,6 @@
 ## -- through the values stored in a couple of dictionaries 
 ## -- Originally designed to format addresses
 
-
 ## FILES ##
 csv1 = open(r'c:/route/file1.csv','r', encoding="utf-8")
 csv1_new = open(r'c:/route/file1_new.csv','w', encoding="utf-8")
