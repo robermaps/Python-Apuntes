@@ -14,7 +14,7 @@ Por Rober J
 <p></p>
 </details>
 
-## Comenzar con Python
+## 🔸Comenzar con Python
 <details>
   <summary>Clic para ampliar</summary>
   
@@ -53,7 +53,7 @@ Por Rober J
 <!-- /wp:paragraph -->
 </details>
 
-## Métodos y funciones
+## 🔸Métodos y funciones
 <details> 
   <summary>Clic para ampliar</summary>
 
@@ -132,41 +132,10 @@ print('Geografía')
   
 </details>
 
-## Clases y variables
+## 🔸Clases y variables
 <details>
   <summary>Clic para ampliar</summary>
-  
-  
-</details>
-
-## Estructuras de control
-<details>
-  <summary>Clic para ampliar</summary>
-  
-  
-</details>
-
-## Directorios
-<details>
-  <summary>Clic para ampliar</summary>
-  
-  
-</details>
-
-## Ficheros
-<details>
-  <summary>Clic para ampliar</summary>
-  
-
-  
-</details>
-
-
-
-
-
-
-<p><a id="clases_y_variables"></a></p>
+  <p><a id="clases_y_variables"></a></p>
 
 <!-- wp:heading {"textAlign":"center"} -->
 <h2 class="has-text-align-center"><strong>Clases y variables</strong></h2>
@@ -279,6 +248,37 @@ print(A)
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
+  
+</details>
+
+## 🔸Estructuras de control
+<details>
+  <summary>Clic para ampliar</summary>
+  
+  
+</details>
+
+## 🔸Directorios
+<details>
+  <summary>Clic para ampliar</summary>
+  
+  
+</details>
+
+## 🔸Ficheros
+<details>
+  <summary>Clic para ampliar</summary>
+  
+
+  
+</details>
+
+
+
+
+
+
+
 
 <!-- wp:heading {"textAlign":"center"} -->
 <h2 class="has-text-align-center"><strong>Tipos de variables</strong></h2>
