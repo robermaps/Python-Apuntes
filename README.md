@@ -14,7 +14,7 @@ Por Rober J
 <p></p>
 </details>
 
-## 🔸Comenzar con Python
+## Comenzar con Python
 <details>
   <summary>Clic para ampliar</summary>
   
@@ -53,7 +53,7 @@ Por Rober J
 <!-- /wp:paragraph -->
 </details>
 
-## 🔸Métodos y funciones
+## Métodos y funciones
 <details> 
   <summary>Clic para ampliar</summary>
 
@@ -132,7 +132,7 @@ print('Geografía')
   
 </details>
 
-## 🔸Clases y variables
+## Clases y variables
 <details>
   <summary>Clic para ampliar</summary>
   <p><a id="clases_y_variables"></a></p>
@@ -251,21 +251,21 @@ print(A)
   
 </details>
 
-## 🔸Estructuras de control
+## Estructuras de control
 <details>
   <summary>Clic para ampliar</summary>
   
   
 </details>
 
-## 🔸Directorios
+## Directorios
 <details>
   <summary>Clic para ampliar</summary>
   
   
 </details>
 
-## 🔸Ficheros
+## Ficheros
 <details>
   <summary>Clic para ampliar</summary>
   
