@@ -14,17 +14,11 @@ Por Rober J
 <p></p>
 </details>
 
-
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Comenzar con Python</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+## Comenzar con Python
+<details>
+  <summary>Clic para ampliar</summary>
+  
+  <!-- wp:paragraph -->
 <p><strong>Python </strong>se ha convertido en uno de los lenguajes de programación favoritos para hacer toda clase de virguerías con la <strong>información geoespacial</strong> y no es casualidad: su (relativa) facilidad de uso y flexibilidad lo hace muy atractivo para usarlo en múltiples plataformas por usuarios no muy familiarizados con la programación informática (entre los que podría incluirme).</p>
 <!-- /wp:paragraph -->
 
@@ -57,16 +51,11 @@ Por Rober J
 <!-- wp:paragraph {"backgroundColor":"light-green-cyan"} -->
 <p class="has-light-green-cyan-background-color has-background">⚠ Este post trata sobre los aspectos básicos de Python en su <strong>versión 3.x</strong> (Python3), utilizada por QGIS a partir de su versión 3. Sin embargo, QGIS en sus versiones 2.x y ArcGIS utilizan la versión 2 de Python, por lo que se comentarán las diferencias entre las dos versiones en los puntos donde pueda ser conflictivo. </p>
 <!-- /wp:paragraph -->
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="metodos_y_funciones"></a></p>
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Métodos y funciones</strong></h2>
-<!-- /wp:heading -->
+## Métodos y funciones
+<details> 
+  <summary>Clic para ampliar</summary>
 
 <!-- wp:paragraph -->
 <p>Una <strong>función</strong> es un código que se ejecuta al escribir su nombre y rellenar sus parámetros, haciendo que se lleven a cabo las operaciones de de dicho código. Las funciones se pueden tanto crear desde 0 como usar las que trae Python por defecto o las de sus librerías y/o módulos. </p>
@@ -140,9 +129,42 @@ print('Geografía')
 <p>Nuestra función podrá tener <strong>tantos argumentos como queramos</strong>, así como podrá crear variables que funcionen solo dentro de esa función, denominadas <strong>variables locales</strong> (las variables que funcionan para todo el programa se llaman <strong>variables globales</strong>)</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+  
+</details>
+
+## Clases y variables
+<details>
+  <summary>Clic para ampliar</summary>
+  
+  
+</details>
+
+## Estructuras de control
+<details>
+  <summary>Clic para ampliar</summary>
+  
+  
+</details>
+
+## Directorios
+<details>
+  <summary>Clic para ampliar</summary>
+  
+  
+</details>
+
+## Ficheros
+<details>
+  <summary>Clic para ampliar</summary>
+  
+
+  
+</details>
+
+
+
+
+
 
 <p><a id="clases_y_variables"></a></p>
 
