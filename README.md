@@ -251,90 +251,6 @@ print(A)
 <details>
   <summary><strong>Números</strong></summary>
  
-  
-</details>
-
-<details>
-  <summary><strong>Texto</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Listas y tuplas</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Booleanos</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Convertir variables</strong></summary>
- 
-  
-</details>
-
-
-<details>
-  <summary><strong>Estructuras if-else </strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Bucles for</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Bucles while</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Directorios</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Ficheros</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Errores y excepciones</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Inputs</strong></summary>
- 
-  
-</details>
-
-
-
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Tipos de variables</strong></h2>
-<!-- /wp:heading -->
-
-<p><a id="numeros"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Números</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 <p>Los números no debe entrecomillarse, pues si no los tomará como si fuesen texto y no podrán usarse para hacer operaciones. Python puede usarse como una calculadora:</p>
 <!-- /wp:paragraph -->
 
@@ -383,15 +299,21 @@ print(5/3)
 
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
-<p><a id="texto"></a></p>
+  
+</details>
 
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Texto</strong></h3>
-<!-- /wp:heading -->
+<details>
+  <summary><strong>Texto</strong></summary>
+ 
 
-<!-- wp:paragraph -->
+
+
+
+
+
+
+
 <p>El texto o también llamado <strong>cadenas (string)</strong> debe escribirse entrecomillado, ya sean comillas simples o dobles:</p>
 <!-- /wp:paragraph -->
 
@@ -504,6 +426,85 @@ alreves = palabra[::-1]
 print(alreves)
 > 'GIS'</pre>
 <!-- /wp:syntaxhighlighter/code -->
+  
+</details>
+
+<details>
+  <summary><strong>Listas y tuplas</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Booleanos</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Convertir variables</strong></summary>
+ 
+  
+</details>
+
+
+<details>
+  <summary><strong>Estructuras if-else </strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Bucles for</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Bucles while</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Directorios</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Ficheros</strong></summary>
+ 
+  
+</details>
+
+
+
+<details>
+  <summary><strong>Inputs</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Errores y excepciones</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Control de excepciones</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Validaciones y contadores</strong></summary>
+ 
+  
+</details>
+
+
 
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
