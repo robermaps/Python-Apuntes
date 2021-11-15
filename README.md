@@ -4,17 +4,6 @@
 
 Por Rober J
 
-[![](https://img.shields.io/badge/@progra_mapa-blue?style=for-the-badge&labelColor=blue&logo=Twitter&logoColor=white)](https://twitter.com/progra_mapa)[![](https://img.shields.io/badge/PrograMapa-grey?style=for-the-badge&logo=wordpress)](https://programapa.wordpress.com)[![](https://img.shields.io/badge/Roberto-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/robertojl)
-
-<details>
-  <summary style='text-size:45'><strong>Índice</strong></summary>
-  
-  
-<p><strong><a href="#inicio_python">Comenzar con Python</a></strong><br><strong><a href="#metodos_y_funciones">Métodos y funciones</a></strong><strong><br></strong>&nbsp; &nbsp;- <a href="#crear_funciones">Crear funciones</a><br><strong><a href="#clases_y_variables">Clases y variables</a></strong><br>&nbsp; &nbsp;- <a href="#numeros">Numeros</a><br>&nbsp; &nbsp;- <a href="#texto">Texto</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#operar_texto">Operar con el texto</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#posiciones_subcadenas">Posiciones y subcadenas</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#rutas">Rutas</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#codificacion">Codificación del sistema</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#ascii">Caracteres especiales ASCII</a><br>&nbsp; &nbsp;- <a href="#listas">Listas y tuplas</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#metodos_lista">Métodos de lista</a><br>&nbsp; &nbsp;- <a href="#booleanos">Booleanos</a><br><strong><a href="#convertir_variables">Convertir variables</a></strong><br>&nbsp; &nbsp;- <a href="#numeros-texto">Números a texto</a><br>&nbsp; &nbsp;- <a href="#floats-enteros">Decimales a enteros</a><br>&nbsp; &nbsp;- <a href="#enteros-floats">Enteros a decimales</a><br><strong><a href="#estructuras_de_control">Estructuras de control</a></strong><br>&nbsp; &nbsp;- <a href="#condicionales">Condicionales</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#if">if</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#if-else">if-else</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#if-elif-else">if-elif-else</a><br>&nbsp; &nbsp;- <a href="#iteracion">Iteración</a><br>&nbsp; &nbsp; &nbsp; &nbsp;·&nbsp; <a href="#for">bucles for</a><br>&nbsp; &nbsp; &nbsp; &nbsp;·&nbsp; <a href="#while">bucles while</a><br><strong><a href="#ficheros">Ficheros</a></strong><br>&nbsp; &nbsp;- <a href="#abrir_fichero">Abrir un fichero</a><br>&nbsp; &nbsp;- <a href="#crear_fichero">Crear un fichero</a><br>&nbsp; &nbsp;- <a href="#metodos_fichero">Métodos de fichero</a><br>&nbsp; &nbsp;- <a href="#ver_fichero">Ver un fichero</a><br>&nbsp; &nbsp;- <a href="#columnas">Acceder a las columnas</a><br>&nbsp; &nbsp;- <a href="#escribir">Escribir en un fichero</a><br>&nbsp; &nbsp;- <a href="#copiar">Copiar datos de un fichero a otro</a><br><strong><a href="#directorios">Directorios</a></strong><br>&nbsp; &nbsp;- <a href="#funciones_os">Funciones del módulo os</a><br>&nbsp; &nbsp;- <a href="#crear_directorio">Crear directorios</a><br>&nbsp; &nbsp;- <a href="#listar_archivos">Listar archivos</a><br>&nbsp; &nbsp;- <a href="#nombres_extensiones">Obtener nombres y extensiones</a><br>&nbsp; &nbsp;- <a href="#filtrar_tipo">Filtrar por tipo de archivo</a><br><strong><a href="#errores">Errores y excepciones</a></strong><br>&nbsp; &nbsp;- <a href="#error_sintaxis">Errores de sintaxis</a><br>&nbsp; &nbsp;- <a href="#error_semantico">Errores semánticos</a><br>&nbsp; &nbsp;- <a href="#excepciones">Errores de ejecución: excepciones</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#try_except_finally">Control de excepciones: try - except - finally</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#while_true">Validaciones: while True</a><br>&nbsp; &nbsp; &nbsp; &nbsp;· <a href="#contadores">Contadores</a><br>&nbsp; &nbsp;- <a href="#mensajes_error">Mensajes de error</a><br><strong><a href="#inputs">Inputs</a></strong></p>
-<p></p>
-</details>
-
-
 <details>
   <summary><strong>Comenzar con Python</strong></summary>
   
@@ -306,14 +295,6 @@ print(5/3)
 <details>
   <summary><strong>Texto</strong></summary>
  
-
-
-
-
-
-
-
-
 <p>El texto o también llamado <strong>cadenas (string)</strong> debe escribirse entrecomillado, ya sean comillas simples o dobles:</p>
 <!-- /wp:paragraph -->
 
@@ -586,93 +567,7 @@ print('Guns N\' Roses')
 <details>
   <summary><strong>Listas y tuplas</strong></summary>
  
-  
-</details>
-
-<details>
-  <summary><strong>Booleanos</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Convertir variables</strong></summary>
- 
-  
-</details>
-
-
-<details>
-  <summary><strong>Estructuras if-else </strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Bucles for</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Bucles while</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Directorios</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Ficheros</strong></summary>
- 
-  
-</details>
-
-
-
-<details>
-  <summary><strong>Inputs</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Errores y excepciones</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Control de excepciones</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Validaciones y contadores</strong></summary>
- 
-  
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="listas"></a></p>
+  <p><a id="listas"></a></p>
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center"><strong>Listas</strong></h3>
@@ -740,8 +635,13 @@ print(coordenadas)
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
+  
+</details>
 
-<!-- wp:heading {"textAlign":"center","level":3} -->
+<details>
+  <summary><strong>Booleanos</strong></summary>
+ 
+  <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center"><strong>Booleanos</strong></h3>
 <!-- /wp:heading -->
 
@@ -777,18 +677,14 @@ print(SIG[False])
 print(SIG[True])
 > 'QGIS'</pre>
 <!-- /wp:syntaxhighlighter/code -->
+  
+  
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="convertir_variables"></a></p>
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Convertir variables</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<details>
+  <summary><strong>Convertir variables</strong></summary>
+ 
+  <!-- wp:paragraph -->
 <p>Existen funciones para transformar una variable de una clase en otra para evitar errores. Hay conversiones que no se pueden hacer, como convertir un texto en número, pero sí podemos convertir por ejemplo números en cadenas:</p>
 <!-- /wp:paragraph -->
 
@@ -855,36 +751,14 @@ print(numero)
 print(type(numero))
 > &lt;class 'float'></pre>
 <!-- /wp:syntaxhighlighter/code -->
+  
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Estructuras de control</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Las estructuras de control son códigos que organizan cómo se ejecuta un programa, haciendo que se repitan las operaciones o dejando fuera de la ejecución unas instrucciones en favor de otras dependiendo de si se cumplen o no unas condiciones.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Existen fundamentalmente <strong>dos tipos</strong> de estructuras de control: condicionales y de iteración. Ambas hacen uso de los <a href="https://programapa.wordpress.com/2021/01/23/fundamentos-de-python-1-variables-clases-funciones-y-metodos/#booleanos">booleanos</a> para evaluar unas condiciones u otras usando los <strong>operadores de comparación</strong>:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>&gt;</td><td>Mayor que</td></tr><tr><td>&lt;</td><td>Menor que</td></tr><tr><td>==</td><td>Igual que</td></tr><tr><td>&gt;=</td><td>Mayor o igual que</td></tr><tr><td>&lt;=</td><td>Menor o igual que</td></tr><tr><td>!=</td><td>Distinto de</td></tr></tbody></table></figure>
-<!-- /wp:table -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Condicionales</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<details>
+  <summary><strong>Estructuras if-else </strong></summary>
+ 
+  <!-- wp:paragraph -->
 <p>Las estructuras condicionales ejecutan un código u otro en función de si se cumple una condición o no:</p>
 <!-- /wp:paragraph -->
 
@@ -961,32 +835,21 @@ else:
 
 > Es Cádiz</pre>
 <!-- /wp:syntaxhighlighter/code -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="iteracion"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Iteración</strong></h3>
+  
+ <!-- wp:heading {"level":4} -->
+<h4><strong>Operadores condicionales</strong></h4>
 <!-- /wp:heading -->
+  
+  <!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td>&gt;</td><td>Mayor que</td></tr><tr><td>&lt;</td><td>Menor que</td></tr><tr><td>==</td><td>Igual que</td></tr><tr><td>&gt;=</td><td>Mayor o igual que</td></tr><tr><td>&lt;=</td><td>Menor o igual que</td></tr><tr><td>!=</td><td>Distinto de</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+  
+</details>
 
-<!-- wp:paragraph -->
-<p>Las estructuras de iteración repiten trozos de código, lo cual se denomina <strong>bucle</strong>. Existen <strong>dos tipos de bucles</strong> en función de cómo se defina el número de veces que se repite un código: </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="for"></a></p>
-
-<!-- wp:heading {"level":4} -->
-<h4><strong>For</strong></h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<details>
+  <summary><strong>Bucles for</strong></summary>
+ 
+  <!-- wp:paragraph -->
 <p>En los bucles<em> for</em> se repetirá un código un número de veces determinado por la cantidad de elementos que se encuentren en una lista.</p>
 <!-- /wp:paragraph -->
 
@@ -1037,18 +900,13 @@ for numero in rango:
 > 10
 </pre>
 <!-- /wp:syntaxhighlighter/code -->
+  
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="while"></a></p>
-
-<!-- wp:heading {"level":4} -->
-<h4><strong>While</strong></h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<details>
+  <summary><strong>Bucles while</strong></summary>
+ 
+  <!-- wp:paragraph -->
 <p>Este tipo de bucle repetirá un código mientras se cumpla una condición. En el siguiente ejemplo se comprueba que <em>a </em>sea menor que 5, que en caso afirmativo imprimirá una cadena y aumentará el valor de <em>a</em> en 1:</p>
 <!-- /wp:paragraph -->
 
@@ -1116,19 +974,153 @@ while a &lt; 5:
 > 4 es menor que 5
 > aquí se interrumpe el bucle</pre>
 <!-- /wp:syntaxhighlighter/code -->
+  
+</details>
+
+<details>
+  <summary><strong>Directorios</strong></summary>
+ 
+  <!-- wp:paragraph -->
+<p>Para acceder al sistema de archivos del ordenador y realizar operaciones como crear carpetas, listar o borrar archivos, etc. Python necesita <strong>importar el módulo <em>os</em></strong>, el cual recoge las funciones necesarias para ello:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">import os</pre>
+<!-- /wp:syntaxhighlighter/code -->
 
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<p><a id="ficheros"></a></p>
+<p><a id="funciones_os"></a></p>
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Manejo de ficheros</strong></h2>
+<!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="has-text-align-center"><strong>Funciones del módulo <em>os</em></strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td>os.listdir(ruta)</td><td>Devuelve una lista con todos los archivos de una ruta</td></tr><tr><td>os.mkdir(ruta) </td><td>Crea un directorio en la ruta especificada incluyendo su nombre</td></tr><tr><td>os.remove(ruta)</td><td>Borra un archivo </td></tr><tr><td>os.rmdir()</td><td>Borra un directorio solo si está vacío</td></tr><tr><td>os.rename('ruta del archivo','nuevo nombre')</td><td>Cambia el nombre de un archivo</td></tr><tr><td>os.path.exists()</td><td>Devuelve un booleano (true o false) en función si el directorio o archivo existe</td></tr><tr><td>os.path.basename()</td><td>Devuelve una cadena con el nombre del directorio</td></tr><tr><td>os.path.splitext()</td><td>Devuelve una lista con dos elementos: el nombre del archivo y su extensión</td></tr><tr><td>os.isdir()</td><td>Devuelve un booleano en función de si la ruta indicada es o no un directorio</td></tr><tr><td>os.path.join(ruta, "nombrearchivo.extensión")</td><td>Une una ruta con el nombre de un archivo, ahorrándonos el escribir nosotros la contrabarra </td></tr><tr><td>os.system('comando')</td><td>Permite ejecutar comandos de la consola de comandos del PC.</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:spacer {"height":20} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<p><a id="crear_directorio"></a></p>
+
+<!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="has-text-align-center"><strong>Crear un directorio</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Los ficheros (también llamados archivos) son una clase de Python que corresponde a la información almacenada en un fichero que se encuentre en nuestro ordenador. Python puede abrir y modificar multitud de tipos de fichero, incluidos los comúnmente usados por los SIG como Shapefiles, GeoPackages, GeoTIFF...</p>
+<p>Para crear un directorio conviene <strong>comprobar antes si existe</strong>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">import os
+
+ruta = "C:/ruta/carpeta"
+
+if os.path.exists(ruta):
+    print("Ya existe")
+else:
+    os.mkdir(ruta)
+    print("Creado")</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:spacer {"height":20} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<p><a id="listar_archivos"></a></p>
+
+<!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="has-text-align-center"><strong>Listar los archivos de un directorio</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Usando listdir() podemos <strong>crear una lista</strong> con los nombres de los archivos existentes en una ruta junto a su extensión:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">import os
+
+ruta = "C:\\ruta\\carpeta"
+lista_ficheros = os.listdir(ruta)
+
+print(lista_ficheros)</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:spacer {"height":20} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<p><a id="nombres_extensiones"></a></p>
+
+<!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="has-text-align-center"><strong>Obtener nombres y extensiones de los archivos</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Si quisiéramos obtener solo los nombres de los archivos o solo sus extensiones, habría que aplicar la función os.path.splitext() a cada elemento de la lista generada por os.listdir():</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">import os
+
+ruta = "C:\\ruta\\carpeta"
+lista_ficheros = os.listdir(ruta)
+
+for fichero in lista_ficheros:
+    nombres = os.path.splitext(fichero)[0]
+    extensiones = os.path.splitext(fichero)[1]
+    print(nombres)
+    print(extensiones)
+</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>Hay que tener en cuenta que también listará las carpetas que se encuentren en el directorio, y estas no cuentan con extensión.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":20} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<p><a id="filtrar_tipo"></a></p>
+
+<!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="has-text-align-center"><strong>Filtrar archivos por tipo</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Siguiendo con lo anterior, podemos quedarnos en una nueva lista solo con los archivos de cierto tipo comprobando que su extensión coincida con la que indiquemos en una variable:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code {"language":"python"} -->
+<pre class="wp-block-syntaxhighlighter-code">import os
+
+ruta = "C:\\ruta\\carpeta"
+lista_capas = os.listdir(ruta)
+
+lista_shapes = []
+filtro = ".shp"
+
+for capa in lista_capas:
+    extensiones = os.path.splitext(capa)[1]
+
+    if extensiones == filtro:
+        lista_shapes.append(capa)
+print(lista_shapes)</pre>
+<!-- /wp:syntaxhighlighter/code -->
+  
+</details>
+
+<details>
+  <summary><strong>Ficheros</strong></summary>
+ 
+  <!-- wp:paragraph -->
+<p>Los ficheros o archivos son una clase de Python que corresponde a la información almacenada en un fichero que se encuentre en nuestro ordenador. Python puede abrir y modificar multitud de tipos de fichero, incluidos los comúnmente usados por los SIG como Shapefiles, GeoPackages, GeoTIFF...</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1339,160 +1331,69 @@ ciudades_C.close()
 <!-- wp:image {"id":4699,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://programapa.files.wordpress.com/2021/01/image-5.png?w=288" alt="" class="wp-image-4699"/></figure>
 <!-- /wp:image -->
+  
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
-<p><a id="directorios"></a></p>
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Directorios</strong></h2>
-<!-- /wp:heading -->
+<details>
+  <summary><strong>Inputs</strong></summary>
+ 
+  <!-- wp:paragraph -->
+<p>Los inputs son valores que el usuario de un programa informático introduce de forma dinámica para obtener un resultado. Podemos hacer que un programa requiera que el usuario introduzca datos para seguir ejecutándose mediante la función input().</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Para acceder al sistema de archivos del ordenador y realizar operaciones como crear carpetas, listar o borrar archivos, etc. Python necesita <strong>importar el módulo <em>os</em></strong>, el cual recoge las funciones necesarias para ello:</p>
+<p>Por ejemplo, podemos modificar el script anterior para que se calcule la media de dos valores cualesquiera que introduzca el usuario:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:syntaxhighlighter/code {"language":"python"} -->
-<pre class="wp-block-syntaxhighlighter-code">import os</pre>
+<pre class="wp-block-syntaxhighlighter-code">def media(x,y):
+    resultado = (x + y)/2
+    return resultado
+
+print('¡Averigua la media de dos números!')
+num1 = float(input('Introduce un número: '))
+num2 = float(input('Introduce otro número: '))
+
+print(media(num1,num2))</pre>
 <!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>Se ha forzado el input mediante la función de conversión de variables float() para que los números sean siempre tomados como floats y no como texto.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>También se puede añadir un pequeño mensaje dentro de la función en formato string para guiar al usuario. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"backgroundColor":"light-green-cyan"} -->
+<p class="has-light-green-cyan-background-color has-background">⚠ En Python 2 hay dos clases de inputs: <em>input()</em> permite diferenciar entre números y texto si hacemos uso o no de las comillas, y <em>raw_input()</em> convierte todo a texto.  En Python 3, la función <em>input()</em> devuelve todo como texto (sustituyendo a <em>raw_input()</em>) y tendremos que usar funciones de conversión. Si queremos que el procedimiento sea automático y sea Python quien decida (similar al <em>input()</em> de Python 2) tendremos que usar la función <em>input()</em> dentro de la función <em>eval()</em>. </p>
+<!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
+  
+</details>
 
-<p><a id="funciones_os"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Funciones del módulo <em>os</em></strong></h3>
+<details>
+  <summary><strong>Errores y excepciones</strong></summary>
+  
+  <!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="has-text-align-center"><strong>Mensajes de error</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>os.listdir(ruta)</td><td>Devuelve una lista con todos los archivos de una ruta</td></tr><tr><td>os.mkdir(ruta) </td><td>Crea un directorio en la ruta especificada incluyendo su nombre</td></tr><tr><td>os.remove(ruta)</td><td>Borra un archivo </td></tr><tr><td>os.rmdir()</td><td>Borra un directorio solo si está vacío</td></tr><tr><td>os.rename('ruta del archivo','nuevo nombre')</td><td>Cambia el nombre de un archivo</td></tr><tr><td>os.path.exists()</td><td>Devuelve un booleano (true o false) en función si el directorio o archivo existe</td></tr><tr><td>os.path.basename()</td><td>Devuelve una cadena con el nombre del directorio</td></tr><tr><td>os.path.splitext()</td><td>Devuelve una lista con dos elementos: el nombre del archivo y su extensión</td></tr><tr><td>os.isdir()</td><td>Devuelve un booleano en función de si la ruta indicada es o no un directorio</td></tr><tr><td>os.path.join(ruta, "nombrearchivo.extensión")</td><td>Une una ruta con el nombre de un archivo, ahorrándonos el escribir nosotros la contrabarra </td></tr><tr><td>os.system('comando')</td><td>Permite ejecutar comandos de la consola de comandos del PC.</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td>SyntaxError</td><td>El código está mal escrito y tiene errores de sintaxis</td></tr><tr><td>AttributeError</td><td>Intentamos un método sobre un objeto que no lo permite (como aplicar un método de lista a un número)</td></tr><tr><td>ValueError:</td><td>Usamos un valor incompatible dentro de una función </td></tr><tr><td>IndexError</td><td>Cuando se señala una posición que no existe en una cadena o lista</td></tr><tr><td>NameError</td><td>Se llama a una variable que no está asignada o función que no existe</td></tr><tr><td>IOError</td><td>Cuando se intenta abrir un archivo no existe</td></tr><tr><td>TypeError</td><td>Cuando hacemos operaciones con valores incompatibles (como tratar de sumar una cadena y un número)</td></tr><tr><td>ZeroDivisionError</td><td>Intentamos dividir entre 0</td></tr><tr><td>KeyError:</td><td>Cuando falta una llave en un diccionario y queremos acceder a ella</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<p><a id="crear_directorio"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Crear un directorio</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Para crear un directorio conviene <strong>comprobar antes si existe</strong>:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:syntaxhighlighter/code {"language":"python"} -->
-<pre class="wp-block-syntaxhighlighter-code">import os
-
-ruta = "C:/ruta/carpeta"
-
-if os.path.exists(ruta):
-    print("Ya existe")
-else:
-    os.mkdir(ruta)
-    print("Creado")</pre>
-<!-- /wp:syntaxhighlighter/code -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="listar_archivos"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Listar los archivos de un directorio</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Usando listdir() podemos <strong>crear una lista</strong> con los nombres de los archivos existentes en una ruta junto a su extensión:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:syntaxhighlighter/code {"language":"python"} -->
-<pre class="wp-block-syntaxhighlighter-code">import os
-
-ruta = "C:\\ruta\\carpeta"
-lista_ficheros = os.listdir(ruta)
-
-print(lista_ficheros)</pre>
-<!-- /wp:syntaxhighlighter/code -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="nombres_extensiones"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Obtener nombres y extensiones de los archivos</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Si quisiéramos obtener solo los nombres de los archivos o solo sus extensiones, habría que aplicar la función os.path.splitext() a cada elemento de la lista generada por os.listdir():</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:syntaxhighlighter/code {"language":"python"} -->
-<pre class="wp-block-syntaxhighlighter-code">import os
-
-ruta = "C:\\ruta\\carpeta"
-lista_ficheros = os.listdir(ruta)
-
-for fichero in lista_ficheros:
-    nombres = os.path.splitext(fichero)[0]
-    extensiones = os.path.splitext(fichero)[1]
-    print(nombres)
-    print(extensiones)
-</pre>
-<!-- /wp:syntaxhighlighter/code -->
-
-<!-- wp:paragraph -->
-<p>Hay que tener en cuenta que también listará las carpetas que se encuentren en el directorio, y estas no cuentan con extensión.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="filtrar_tipo"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Filtrar archivos por tipo</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Siguiendo con lo anterior, podemos quedarnos en una nueva lista solo con los archivos de cierto tipo comprobando que su extensión coincida con la que indiquemos en una variable:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:syntaxhighlighter/code {"language":"python"} -->
-<pre class="wp-block-syntaxhighlighter-code">import os
-
-ruta = "C:\\ruta\\carpeta"
-lista_capas = os.listdir(ruta)
-
-lista_shapes = []
-filtro = ".shp"
-
-for capa in lista_capas:
-    extensiones = os.path.splitext(capa)[1]
-
-    if extensiones == filtro:
-        lista_shapes.append(capa)
-print(lista_shapes)</pre>
-<!-- /wp:syntaxhighlighter/code -->
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Errores y excepciones</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+ 
+  <!-- wp:paragraph -->
 <p>En el ámbito de la programación podemos encontrar fundamentalmente <strong>3 tipos de errores</strong> dependiendo de su origen:</p>
 <!-- /wp:paragraph -->
 
@@ -1561,18 +1462,13 @@ print(lista_shapes)</pre>
 <!-- wp:paragraph -->
 <p>¿Cómo se <strong>evitan</strong> esta clase de errores? A través del <strong>control de excepciones</strong> y las <strong>validaciones</strong>.</p>
 <!-- /wp:paragraph -->
+  
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="try_except_finally"></a></p>
-
-<!-- wp:heading {"level":4} -->
-<h4><strong>Control de excepciones: try - except - finally</strong></h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<details>
+  <summary><strong>Control de excepciones</strong></summary>
+ 
+  <!-- wp:paragraph -->
 <p>Consiste en crear bloques de código alternativos que se ejecutarán en caso de que nuestra primera opción falle. La estructura que sigue es la siguiente:</p>
 <!-- /wp:paragraph -->
 
@@ -1608,7 +1504,13 @@ except:
    print('Algo ha fallado')</pre>
 <!-- /wp:syntaxhighlighter/code -->
 
-<!-- wp:spacer {"height":20} -->
+  
+</details>
+
+<details>
+  <summary><strong>Validaciones y contadores</strong></summary>
+ 
+  <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -1686,64 +1588,70 @@ while True:
     else:
         break</pre>
 <!-- /wp:syntaxhighlighter/code -->
+  
+</details>
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
-<p><a id="mensajes_error"></a></p>
+## ¡Sígueme!
+[![](https://img.shields.io/badge/@progra_mapa-blue?style=for-the-badge&labelColor=blue&logo=Twitter&logoColor=white)](https://twitter.com/progra_mapa)[![](https://img.shields.io/badge/PrograMapa-grey?style=for-the-badge&logo=wordpress)](https://programapa.wordpress.com)[![](https://img.shields.io/badge/Roberto-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/robertojl)
 
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Mensajes de error</strong></h3>
-<!-- /wp:heading -->
 
-<!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>SyntaxError</td><td>El código está mal escrito y tiene errores de sintaxis</td></tr><tr><td>AttributeError</td><td>Intentamos un método sobre un objeto que no lo permite (como aplicar un método de lista a un número)</td></tr><tr><td>ValueError:</td><td>Usamos un valor incompatible dentro de una función </td></tr><tr><td>IndexError</td><td>Cuando se señala una posición que no existe en una cadena o lista</td></tr><tr><td>NameError</td><td>Se llama a una variable que no está asignada o función que no existe</td></tr><tr><td>IOError</td><td>Cuando se intenta abrir un archivo no existe</td></tr><tr><td>TypeError</td><td>Cuando hacemos operaciones con valores incompatibles (como tratar de sumar una cadena y un número)</td></tr><tr><td>ZeroDivisionError</td><td>Intentamos dividir entre 0</td></tr><tr><td>KeyError:</td><td>Cuando falta una llave en un diccionario y queremos acceder a ella</td></tr></tbody></table></figure>
-<!-- /wp:table -->
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
-<p><a id="inputs"></a></p>
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Inputs</strong></h2>
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>Los inputs son valores que el usuario de un programa informático introduce de forma dinámica para obtener un resultado. Podemos hacer que un programa requiera que el usuario introduzca datos para seguir ejecutándose mediante la función input().</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Por ejemplo, podemos modificar el script anterior para que se calcule la media de dos valores cualesquiera que introduzca el usuario:</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:syntaxhighlighter/code {"language":"python"} -->
-<pre class="wp-block-syntaxhighlighter-code">def media(x,y):
-    resultado = (x + y)/2
-    return resultado
 
-print('¡Averigua la media de dos números!')
-num1 = float(input('Introduce un número: '))
-num2 = float(input('Introduce otro número: '))
 
-print(media(num1,num2))</pre>
-<!-- /wp:syntaxhighlighter/code -->
 
-<!-- wp:paragraph -->
-<p>Se ha forzado el input mediante la función de conversión de variables float() para que los números sean siempre tomados como floats y no como texto.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>También se puede añadir un pequeño mensaje dentro de la función en formato string para guiar al usuario. </p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"backgroundColor":"light-green-cyan"} -->
-<p class="has-light-green-cyan-background-color has-background">⚠ En Python 2 hay dos clases de inputs: <em>input()</em> permite diferenciar entre números y texto si hacemos uso o no de las comillas, y <em>raw_input()</em> convierte todo a texto.  En Python 3, la función <em>input()</em> devuelve todo como texto (sustituyendo a <em>raw_input()</em>) y tendremos que usar funciones de conversión. Si queremos que el procedimiento sea automático y sea Python quien decida (similar al <em>input()</em> de Python 2) tendremos que usar la función <em>input()</em> dentro de la función <em>eval()</em>. </p>
-<!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
