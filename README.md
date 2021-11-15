@@ -135,11 +135,8 @@ print('Geografía')
 
 <details>
   <summary><strong>Clases y variables</strong></summary>
-  <p><a id="clases_y_variables"></a></p>
+  
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><strong>Clases y variables</strong></h2>
-<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>Las <strong>variables </strong>en Python son un tipo de objeto en  los que se almacena un valor o conjunto de valores. Dependiendo de la <strong>clase </strong>o tipo de dato que almacene, la variable será de una clase u otra.</p>
@@ -263,9 +260,39 @@ print(A)
   
 </details>
 
+<details>
+  <summary><strong>Listas y tuplas</strong></summary>
+ 
+  
+</details>
 
 <details>
-  <summary><strong>Estructuras de control</strong></summary>
+  <summary><strong>Booleanos</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Convertir variables</strong></summary>
+ 
+  
+</details>
+
+
+<details>
+  <summary><strong>Estructuras if-else </strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Bucles for</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Bucles while</strong></summary>
  
   
 </details>
@@ -282,9 +309,17 @@ print(A)
   
 </details>
 
+<details>
+  <summary><strong>Errores y excepciones</strong></summary>
+ 
+  
+</details>
 
-
-
+<details>
+  <summary><strong>Inputs</strong></summary>
+ 
+  
+</details>
 
 
 
