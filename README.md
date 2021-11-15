@@ -14,9 +14,9 @@ Por Rober J
 <p></p>
 </details>
 
-## Comenzar con Python
+
 <details>
-  <summary>Clic para ampliar</summary>
+  <summary><strong>Comenzar con Python</strong></summary>
   
   <!-- wp:paragraph -->
 <p><strong>Python </strong>se ha convertido en uno de los lenguajes de programación favoritos para hacer toda clase de virguerías con la <strong>información geoespacial</strong> y no es casualidad: su (relativa) facilidad de uso y flexibilidad lo hace muy atractivo para usarlo en múltiples plataformas por usuarios no muy familiarizados con la programación informática (entre los que podría incluirme).</p>
@@ -53,9 +53,9 @@ Por Rober J
 <!-- /wp:paragraph -->
 </details>
 
-## Métodos y funciones
+
 <details> 
-  <summary>Clic para ampliar</summary>
+  <summary><strong>Métodos y funciones</strong></summary>
 
 <!-- wp:paragraph -->
 <p>Una <strong>función</strong> es un código que se ejecuta al escribir su nombre y rellenar sus parámetros, haciendo que se lleven a cabo las operaciones de de dicho código. Las funciones se pueden tanto crear desde 0 como usar las que trae Python por defecto o las de sus librerías y/o módulos. </p>
@@ -132,9 +132,9 @@ print('Geografía')
   
 </details>
 
-## Clases y variables
+
 <details>
-  <summary>Clic para ampliar</summary>
+  <summary><strong>Clases y variables</strong></summary>
   <p><a id="clases_y_variables"></a></p>
 
 <!-- wp:heading {"textAlign":"center"} -->
@@ -251,25 +251,34 @@ print(A)
   
 </details>
 
-## Estructuras de control
 <details>
-  <summary>Clic para ampliar</summary>
-  
+  <summary><strong>Números</strong></summary>
+ 
   
 </details>
 
-## Directorios
 <details>
-  <summary>Clic para ampliar</summary>
-  
+  <summary><strong>Texto</strong></summary>
+ 
   
 </details>
 
-## Ficheros
-<details>
-  <summary>Clic para ampliar</summary>
-  
 
+<details>
+  <summary><strong>Estructuras de control</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Directorios</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Ficheros</strong></summary>
+ 
   
 </details>
 
