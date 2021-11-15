@@ -426,91 +426,6 @@ alreves = palabra[::-1]
 print(alreves)
 > 'GIS'</pre>
 <!-- /wp:syntaxhighlighter/code -->
-  
-</details>
-
-<details>
-  <summary><strong>Listas y tuplas</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Booleanos</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Convertir variables</strong></summary>
- 
-  
-</details>
-
-
-<details>
-  <summary><strong>Estructuras if-else </strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Bucles for</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Bucles while</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Directorios</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Ficheros</strong></summary>
- 
-  
-</details>
-
-
-
-<details>
-  <summary><strong>Inputs</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Errores y excepciones</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Control de excepciones</strong></summary>
- 
-  
-</details>
-
-<details>
-  <summary><strong>Validaciones y contadores</strong></summary>
- 
-  
-</details>
-
-
-
-<!-- wp:spacer {"height":20} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<p><a id="posiciones_subcadenas"></a></p>
 
 <!-- wp:heading {"level":4} -->
 <h4><strong>Posiciones y subcadenas</strong></h4>
@@ -555,13 +470,12 @@ print(mapas[5:11])
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
+  
+</details>
 
-<p><a id="rutas"></a></p>
-
-<!-- wp:heading {"level":4} -->
-<h4><strong>Rutas</strong></h4>
-<!-- /wp:heading -->
-
+<details>
+  <summary><strong>Rutas y codificación de caracteres</strong></summary>
+ 
 <!-- wp:paragraph -->
 <p>Las rutas a archivos o <em>paths</em> se escribirán dentro de la clase <em>string</em>, es decir, tendrán que ir entrecomilladas:</p>
 <!-- /wp:paragraph -->
@@ -666,6 +580,93 @@ print('Guns N\' Roses')
 <!-- wp:paragraph {"backgroundColor":"light-green-cyan"} -->
 <p class="has-light-green-cyan-background-color has-background">⚠ Nota: para evitar problemas con las rutas y cadenas en general en Python 2 existe la función raw_input() que aplicada a una cadena es equivalente a añadir la <em>r </em></p>
 <!-- /wp:paragraph -->
+  
+</details>
+
+<details>
+  <summary><strong>Listas y tuplas</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Booleanos</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Convertir variables</strong></summary>
+ 
+  
+</details>
+
+
+<details>
+  <summary><strong>Estructuras if-else </strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Bucles for</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Bucles while</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Directorios</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Ficheros</strong></summary>
+ 
+  
+</details>
+
+
+
+<details>
+  <summary><strong>Inputs</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Errores y excepciones</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Control de excepciones</strong></summary>
+ 
+  
+</details>
+
+<details>
+  <summary><strong>Validaciones y contadores</strong></summary>
+ 
+  
+</details>
+
+
+
+
+
+
+
+
+
+
 
 <!-- wp:spacer {"height":20} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
