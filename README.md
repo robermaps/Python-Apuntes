@@ -567,11 +567,7 @@ print('Guns N\' Roses')
 <details>
   <summary><strong>Listas y tuplas</strong></summary>
  
-  <p><a id="listas"></a></p>
-
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Listas</strong></h3>
-<!-- /wp:heading -->
+  
 
 <!-- wp:paragraph -->
 <p>La clase lista o <em>list </em>son un tipo de objeto que almacena una colección de valores. </p>
@@ -641,13 +637,8 @@ print(coordenadas)
 <details>
   <summary><strong>Booleanos</strong></summary>
  
-  <!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><strong>Booleanos</strong></h3>
-<!-- /wp:heading -->
+  
 
-<!-- wp:paragraph -->
-<p>La clase booleano o <em>bool </em>consiste en valores TRUE o FALSE resultado de comprobar si algo es verdadero o falso. Funciona tanto con números como con cadenas de texto:</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:syntaxhighlighter/code {"language":"python"} -->
 <pre class="wp-block-syntaxhighlighter-code">> print(4 == 5)
