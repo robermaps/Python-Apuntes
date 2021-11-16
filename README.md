@@ -637,7 +637,7 @@ print(coordenadas)
 <details>
   <summary><strong>Booleanos</strong></summary>
  
-  
+<p>La clase booleano o bool consiste en valores TRUE o FALSE resultado de comprobar si algo es verdadero o falso. Funciona tanto con números como con cadenas de texto:</p>
 
 
 <!-- wp:syntaxhighlighter/code {"language":"python"} -->
