@@ -2,9 +2,11 @@
 <img src="https://programapa.files.wordpress.com/2021/01/fundamentos-1-python-1.png" width="230" height="200" text-align: center>
 
 Por Rober J
+
+## Introducción 🐍
+
 <details>
   <summary><strong>Comenzar con Python</strong></summary><br>
-  
   
 <p><strong>Python </strong>se ha convertido en uno de los lenguajes de programación favoritos para hacer toda clase de virguerías con la <strong>información geoespacial</strong> y no es casualidad: su (relativa) facilidad de uso y flexibilidad lo hace muy atractivo para usarlo en múltiples plataformas por usuarios no muy familiarizados con la programación informática (entre los que podría incluirme).</p>
 <p>Este lenguaje aplicado a los Sistemas de Información Geográfica (SIG) se usa fundamentalmente para <strong>automatizar procesos o crear los nuestros propios</strong> en forma de <strong>scripts</strong> (pequeños códigos o programas). Por ejemplo, si quieres llevar a cabo una serie de operaciones de control de calidad (corrección de geometrías, control de atributos...) y cada una se ejecuta siempre bajo los mismos parámetros, podrías construir un script que realice todas esas operaciones para un conjunto de datos en vez de ir haciéndolo capa por capa.</p>
@@ -87,6 +89,9 @@ print(A)
 <p>⚠ En Python 2 para imprimir un resultado no es necesario hacer uso de los paréntesis. Basta con escribir <em>print </em>seguido de aquello que se quería imprimir. Esto es porque en Python 3 <em>print </em>pasó a considerarse una función y son siempre obligatorias. En Python 2 también funcionará si usamos los paréntesis. </p>
   
 </details>
+
+## Datos 🧮
+
 <details>
   <summary><strong>Números</strong></summary><br>
  
@@ -177,38 +182,7 @@ print(mapas[5:11])
 > grafía</pre>
   
 </details>
-<details>
-  <summary><strong>Rutas y codificación de caracteres</strong></summary><br>
- 
-<p>Las rutas a archivos o <em>paths</em> se escribirán dentro de la clase <em>string</em>, es decir, tendrán que ir entrecomilladas:</p>
-<pre >ruta = 'C:\Users\Yo\Documentos\Programación\Python'</pre>
-<p>Son de vital importancia para indicar la carpeta de la que queremos coger nuestras capas y/o dónde queremos guardar los resultados de nuestros geoprocesos.</p>
-<p>Las barras que separan los directorios pueden dar problemas dependiendo de sistema operativo que se use. En Windows, se puede usar la doble barra para evitarlos:</p>
-<pre >ruta = 'C:\\Users\\Yo\\Documentos\\Programación\\Python'</pre>
-<p>Otra forma de evitar problemas con los caracteres es añadir una <em>r</em> antes de las comillas, tal y como muestro en el apartado sobre caracteres 👇</p>
-<h4><strong>Codificación de caracteres</strong></h4>
-<p>Una de las cosas a las que debemos prestar atención a la hora de operar con texto es la codificación de caracteres.</p>
-<p>La codificación de caracteres es la forma en que el sistema traduce los caracteres al lenguaje binario de los ordenadores. Existen diversos tipos de codificación, y para <strong>averiguar el que usa nuestro sistema</strong> ejecutaremos el siguiente código:</p>
-<pre >import sys
-print(sys.getdefaultencoding())
-> utf-8</pre>
-<p>Si queremos <strong>cambiar la codificación</strong> usada en nuestro script para que, por ejemplo, admita tildes o eñes, tendremos que colocar la siguiente línea al inicio del script:</p>
-<pre ># -*- coding: utf-8
-</pre>
-<p>⚠ En Python 3 la codificación por defecto es unicode o utf-8 (admite tildes, eñes, etc.) mientras que en Python 2 la codificación por defecto es ASCII y tendríamos que usar la sentencia anterior para cambiarlo.</p>
-<h4><strong>Caracteres especiales ASCII</strong></h4>
-<p>También debemos prestar atención a este tipo de caracteres. Son caracteres que puestos juntos en un texto desempeñan <strong>funciones especiales</strong>. Suele usarse la barra \ seguido de algún otro caracter:</p>
-<figure ><table><thead><tr><th  data-align="center">Caracter</th><th  data-align="center">Función</th></tr></thead><tbody><tr><td  data-align="center">\t</td><td  data-align="center">Tabulación</td></tr><tr><td  data-align="center">\n</td><td  data-align="center">Salto de línea</td></tr><tr><td  data-align="center">\'</td><td  data-align="center">Apóstrofe</td></tr></tbody></table></figure>
-<p>Esto puede generarnos problemas al manejar cadenas cuando programemos. Por ejemplo, si tenemos una ruta estilo C:\Users\Usuario\nuevos_archivos, la ruta no se leerá correctamente porque tiene un <strong>\n</strong> que hace que lea un salto de línea en ese momento. La solución sería usar un <strong>raw text</strong> para anular estos caracteres especiales añadiendo una <strong>r</strong> antes de la ruta:</p>
-<pre >ruta = r'C:\Users\Usuario\nuevos_archivos'</pre>
-<p>Pero también pueden resultar útiles. Por ejemplo, el caracter especial de apóstrofe \' resulta útil cuando queremos incluirlo dentro de un texto que ya está entrecomillado, puesto que los apóstrofes se usan para que Python reconozca las cadenas de texto y si metemos uno de por medio quedaría otro por ahí suelto que generaría error:</p>
-<pre >print('Guns N' Roses')
-> SyntaxError: invalid syntax
-print('Guns N\' Roses')
-> Guns N' Roses</pre>
-<p >⚠ Nota: para evitar problemas con las rutas y cadenas en general en Python 2 existe la función raw_input() que aplicada a una cadena es equivalente a añadir la <em>r </em></p>
-  
-</details>
+
 <details>
   <summary><strong>Listas y tuplas</strong></summary><br>
  
@@ -281,6 +255,9 @@ print(type(numero))
 > &lt;class 'float'></pre>
   
 </details>
+
+## Estructuras de control ⚙
+
 <details>
   <summary><strong>Estructuras if-else </strong></summary><br>
  
@@ -396,6 +373,43 @@ while a &lt; 5:
 > aquí se interrumpe el bucle</pre>
   
 </details>
+
+## Acceso a los datos 🗝
+
+<details>
+  <summary><strong>Rutas y codificación de caracteres</strong></summary><br>
+ 
+<p>Las rutas a archivos o <em>paths</em> se escribirán dentro de la clase <em>string</em>, es decir, tendrán que ir entrecomilladas:</p>
+<pre >ruta = 'C:\Users\Yo\Documentos\Programación\Python'</pre>
+<p>Son de vital importancia para indicar la carpeta de la que queremos coger nuestras capas y/o dónde queremos guardar los resultados de nuestros geoprocesos.</p>
+<p>Las barras que separan los directorios pueden dar problemas dependiendo de sistema operativo que se use. En Windows, se puede usar la doble barra para evitarlos:</p>
+<pre >ruta = 'C:\\Users\\Yo\\Documentos\\Programación\\Python'</pre>
+<p>Otra forma de evitar problemas con los caracteres es añadir una <em>r</em> antes de las comillas, tal y como muestro en el apartado sobre caracteres 👇</p>
+<h4><strong>Codificación de caracteres</strong></h4>
+<p>Una de las cosas a las que debemos prestar atención a la hora de operar con texto es la codificación de caracteres.</p>
+<p>La codificación de caracteres es la forma en que el sistema traduce los caracteres al lenguaje binario de los ordenadores. Existen diversos tipos de codificación, y para <strong>averiguar el que usa nuestro sistema</strong> ejecutaremos el siguiente código:</p>
+<pre >import sys
+print(sys.getdefaultencoding())
+> utf-8</pre>
+<p>Si queremos <strong>cambiar la codificación</strong> usada en nuestro script para que, por ejemplo, admita tildes o eñes, tendremos que colocar la siguiente línea al inicio del script:</p>
+<pre ># -*- coding: utf-8
+</pre>
+<p>⚠ En Python 3 la codificación por defecto es unicode o utf-8 (admite tildes, eñes, etc.) mientras que en Python 2 la codificación por defecto es ASCII y tendríamos que usar la sentencia anterior para cambiarlo.</p>
+<h4><strong>Caracteres especiales ASCII</strong></h4>
+<p>También debemos prestar atención a este tipo de caracteres. Son caracteres que puestos juntos en un texto desempeñan <strong>funciones especiales</strong>. Suele usarse la barra \ seguido de algún otro caracter:</p>
+<figure ><table><thead><tr><th  data-align="center">Caracter</th><th  data-align="center">Función</th></tr></thead><tbody><tr><td  data-align="center">\t</td><td  data-align="center">Tabulación</td></tr><tr><td  data-align="center">\n</td><td  data-align="center">Salto de línea</td></tr><tr><td  data-align="center">\'</td><td  data-align="center">Apóstrofe</td></tr></tbody></table></figure>
+<p>Esto puede generarnos problemas al manejar cadenas cuando programemos. Por ejemplo, si tenemos una ruta estilo C:\Users\Usuario\nuevos_archivos, la ruta no se leerá correctamente porque tiene un <strong>\n</strong> que hace que lea un salto de línea en ese momento. La solución sería usar un <strong>raw text</strong> para anular estos caracteres especiales añadiendo una <strong>r</strong> antes de la ruta:</p>
+<pre >ruta = r'C:\Users\Usuario\nuevos_archivos'</pre>
+<p>Pero también pueden resultar útiles. Por ejemplo, el caracter especial de apóstrofe \' resulta útil cuando queremos incluirlo dentro de un texto que ya está entrecomillado, puesto que los apóstrofes se usan para que Python reconozca las cadenas de texto y si metemos uno de por medio quedaría otro por ahí suelto que generaría error:</p>
+<pre >print('Guns N' Roses')
+> SyntaxError: invalid syntax
+print('Guns N\' Roses')
+> Guns N' Roses</pre>
+<p >⚠ Nota: para evitar problemas con las rutas y cadenas en general en Python 2 existe la función raw_input() que aplicada a una cadena es equivalente a añadir la <em>r </em></p>
+  
+</details>
+
+
 <details>
   <summary><strong>Directorios</strong></summary><br>
  
@@ -532,14 +546,19 @@ print(media(num1,num2))</pre>
 <p >⚠ En Python 2 hay dos clases de inputs: <em>input()</em> permite diferenciar entre números y texto si hacemos uso o no de las comillas, y <em>raw_input()</em> convierte todo a texto.  En Python 3, la función <em>input()</em> devuelve todo como texto (sustituyendo a <em>raw_input()</em>) y tendremos que usar funciones de conversión. Si queremos que el procedimiento sea automático y sea Python quien decida (similar al <em>input()</em> de Python 2) tendremos que usar la función <em>input()</em> dentro de la función <em>eval()</em>. </p>
   
 </details>
+
+## Errores ⚠
+
 <details>
-  <summary><strong>Errores y excepciones</strong></summary><br>
+  <summary><strong>Mensajes de error</strong></summary><br>
   
-  
-<h3 ><strong>Mensajes de error</strong></h3>
 <figure ><table><tbody><tr><td>SyntaxError</td><td>El código está mal escrito y tiene errores de sintaxis</td></tr><tr><td>AttributeError</td><td>Intentamos un método sobre un objeto que no lo permite (como aplicar un método de lista a un número)</td></tr><tr><td>ValueError:</td><td>Usamos un valor incompatible dentro de una función </td></tr><tr><td>IndexError</td><td>Cuando se señala una posición que no existe en una cadena o lista</td></tr><tr><td>NameError</td><td>Se llama a una variable que no está asignada o función que no existe</td></tr><tr><td>IOError</td><td>Cuando se intenta abrir un archivo no existe</td></tr><tr><td>TypeError</td><td>Cuando hacemos operaciones con valores incompatibles (como tratar de sumar una cadena y un número)</td></tr><tr><td>ZeroDivisionError</td><td>Intentamos dividir entre 0</td></tr><tr><td>KeyError:</td><td>Cuando falta una llave en un diccionario y queremos acceder a ella</td></tr></tbody></table></figure>
  
-  
+</details>
+
+<details>
+  <summary><strong>Errores y excepciones</strong></summary><br>
+    
 <p>En el ámbito de la programación podemos encontrar fundamentalmente <strong>3 tipos de errores</strong> dependiendo de su origen:</p>
 <h3 ><strong>Errores de sintaxis</strong></h3>
 <p>Son el resultado de escribir sin respetar las reglas sintácticas de un código: no cerrar paréntesis o comillas, no indentar bien el código, escribir mal el nombre de una función... por lo que tienen fácil solución.</p>
