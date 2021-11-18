@@ -16,7 +16,7 @@ Por Rober J
 <p>Y si queréis probar el código sin descargar nada antes, existen <a rel="noreferrer noopener" href="https://repl.it/languages/python3" target="_blank">consolas de Python online como esta</a> donde trastear libremente, con ciertas limitaciones por supuesto. </p>
 <p>Si no, se pueden usar las consolas que vienen integradas en cada SIG   de escritorio o programas externos denominados Entorno de Desarrollo Integrado (IDE) para programar más cómodamente (las consolas de los SIG suelen estar algo limitadas). Entre los IDE más populares están Visual Estudio Code o PyCharm, y tan solo habrá que <a rel="noreferrer noopener" href="https://remot-technologies.com/configurar-pyqgis-y-vs-code/" target="_blank">configurarlos</a> para comenzar a programar en ellos. </p>
 <p>⚠ Este post trata sobre los aspectos básicos de Python en su <strong>versión 3.x</strong> (Python3), utilizada por QGIS a partir de su versión 3. Sin embargo, QGIS en sus versiones 2.x y ArcGIS utilizan la versión 2 de Python, por lo que se comentarán las diferencias entre las dos versiones en los puntos donde pueda ser conflictivo. </p>
-</details>
+<br></details>
 <details> 
   <summary><strong>Métodos y funciones</strong></summary><br>
 <p>Una <strong>función</strong> es un código que se ejecuta al escribir su nombre y rellenar sus parámetros, haciendo que se lleven a cabo las operaciones de de dicho código. Las funciones se pueden tanto crear desde 0 como usar las que trae Python por defecto o las de sus librerías y/o módulos. </p>
@@ -41,7 +41,7 @@ print('Geografía')
 <ul><li>Cabecera - da nombre a la función (media) y establece los parámetros que se van a usar</li><li>Cuerpo - realiza operaciones con los parámetros definidos en la cabecera y devuelve un resultado mediante <em>return</em></li><li>Llamada - es la invocación de la función al usar su nombre e introducir parámetros reales</li></ul>
 <p>Nuestra función podrá tener <strong>tantos argumentos como queramos</strong>, así como podrá crear variables que funcionen solo dentro de esa función, denominadas <strong>variables locales</strong> (las variables que funcionan para todo el programa se llaman <strong>variables globales</strong>)</p>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Clases y variables</strong></summary><br>
   
@@ -88,7 +88,7 @@ print(A)
 <pre >del mi_objeto</pre>
 <p>⚠ En Python 2 para imprimir un resultado no es necesario hacer uso de los paréntesis. Basta con escribir <em>print </em>seguido de aquello que se quería imprimir. Esto es porque en Python 3 <em>print </em>pasó a considerarse una función y son siempre obligatorias. En Python 2 también funcionará si usamos los paréntesis. </p>
   
-</details>
+<br></details>
 
 ## Datos 🧮
 
@@ -115,7 +115,7 @@ print(5/3)
 <p>⚠ En Python 2 las divisiones cuyo resultado es un decimal (como 5 entre 3) devuelven solo el número entero (5 entre 3 devolvería 1) Sin embargo, si en vez de dividir dos enteros convertimos uno de ellos en decimal (5.0 entre 3) entonces sí se devolvería el resultado con sus decimales. Esto es porque Python 3 convierte los valores automáticamente. En cualquier caso, al combinar enteros y decimales en una operación el resultado siempre será un decimal.</p>
 <p>Python cuenta con una librería muy útil para <a href="https://docs.python.org/3/library/math.html">hacer toda clase de operaciones numéricas llamada <em><strong>math</strong></em></a> que, por lo general, <strong>es más precisa que las operaciones con operadores básicos.</strong></p>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Texto</strong></summary><br>
  
@@ -181,7 +181,7 @@ print(mapas[:5])
 print(mapas[5:11])
 > grafía</pre>
   
-</details>
+<br></details>
 
 <details>
   <summary><strong>Listas y tuplas</strong></summary><br>
@@ -208,7 +208,7 @@ print(coordenadas)
 <h4><strong>Métodos y funciones de lista</strong></h4>
 <figure><table><tbody><tr><td>lista.append(valor)</td><td><strong>Añade un valor</strong> al final de una lista</td></tr><tr><td>lista.extend(lista2)</td><td>Extiende la lista <strong>añadiendo </strong>los elementos de una <strong>segunda lista</strong></td></tr><tr><td>lista.insert(posición, variable)</td><td><strong>Inserta </strong>una variable en la posición indicada de la lista.</td></tr><tr><td>lista.remove(valor)</td><td><strong>Elimina</strong> el primer elemento de la lista cuyo valor es el indicado. Si nada en la lista tiene ese valor se produce un error.</td></tr><tr><td>lista.pop(posición)</td><td>Devuelve y <strong>elimina</strong> el elemento que se encuentre en la posición indicada. Si no se especifica una posición, lo hará de manera predeterminada con el último elemento de la lista.</td></tr><tr><td>del lista[posicion/rango]</td><td>Además de <strong>eliminar</strong> elementos por su posición, con <em>del</em> podemos eliminar elementos que se encuentren en un rango de posiciones que especificamos. Si establecemos el rango [:] se vaciará la lista sin borrarla.</td></tr><tr><td>lista.index(valor)</td><td>Devuelve el <strong>índice de posición</strong> del primer elemento de la lista cuyo valor coincida con el indicado. Si ningún elemento tiene ese valor, producirá error.</td></tr><tr><td>lista.count(valor)</td><td>Devuelve el <strong>número de veces</strong> que aparece el valor indicado en la lista</td></tr><tr><td>lista.sort( )</td><td>Si la lista está compuesta solo por números, esta se modificará para que estén <strong>ordenados</strong> de forma ascendente</td></tr><tr><td>sorted(lista)</td><td>Crea una <strong>nueva lista ordenando los valores</strong> numéricos de menor a mayor de la lista original</td></tr><tr><td>lista.reverse( )</td><td><strong>Invierte </strong>permanentemente el orden de los elementos de la lista</td></tr><tr><td>lista[-5:]+lista[:-5] </td><td><strong>Rota </strong>los elementos de una lista 5 posiciones hacia arriba </td></tr><tr><td>print(max(set(lista), key=lista.count))</td><td>Obtener el <strong>valor más repetido</strong> en una lista</td></tr><tr><td>lista = [x + 1 for x in range(10)]</td><td>Se pueden <strong>usar expresiones</strong> para rellenar de valores una lista nueva. En este caso la lista almacenará valores del 1 al 10 de uno en uno.</td></tr></tbody></table></figure>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Booleanos</strong></summary><br>
  
@@ -228,7 +228,7 @@ print(SIG[True])
 > 'QGIS'</pre>
   
   
-</details>
+<br></details>
 <details>
   <summary><strong>Convertir variables</strong></summary><br>
  
@@ -254,7 +254,7 @@ print(numero)
 print(type(numero))
 > &lt;class 'float'></pre>
   
-</details>
+<br></details>
 
 ## Estructuras de control ⚙
 
@@ -296,7 +296,7 @@ else:
   
 <figure ><table><tbody><tr><td>&gt;</td><td>Mayor que</td></tr><tr><td>&lt;</td><td>Menor que</td></tr><tr><td>==</td><td>Igual que</td></tr><tr><td>&gt;=</td><td>Mayor o igual que</td></tr><tr><td>&lt;=</td><td>Menor o igual que</td></tr><tr><td>!=</td><td>Distinto de</td></tr></tbody></table></figure>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Bucles for</strong></summary><br>
  
@@ -327,7 +327,7 @@ for numero in rango:
 > 10
 </pre>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Bucles while</strong></summary><br>
  
@@ -372,7 +372,7 @@ while a &lt; 5:
 > 4 es menor que 5
 > aquí se interrumpe el bucle</pre>
   
-</details>
+<br></details>
 
 ## Acceso a los datos 🗝
 
@@ -407,7 +407,7 @@ print('Guns N\' Roses')
 > Guns N' Roses</pre>
 <p >⚠ Nota: para evitar problemas con las rutas y cadenas en general en Python 2 existe la función raw_input() que aplicada a una cadena es equivalente a añadir la <em>r </em></p>
   
-</details>
+<br></details>
 
 
 <details>
@@ -458,7 +458,7 @@ for capa in lista_capas:
         lista_shapes.append(capa)
 print(lista_shapes)</pre>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Ficheros</strong></summary><br>
  
@@ -527,7 +527,7 @@ ciudades_C.close()
 <p>Los saltos de línea ya estaban guardados en el archivo de lectura porque los incluimos nosotros antes, de modo que al copiarlo están en el nuevo archivo:</p>
 <figure><img src="https://programapa.files.wordpress.com/2021/01/image-5.png?w=288" alt="" class="wp-image-4699"/></figure>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Inputs</strong></summary><br>
  
@@ -545,7 +545,7 @@ print(media(num1,num2))</pre>
 <p>También se puede añadir un pequeño mensaje dentro de la función en formato string para guiar al usuario. </p>
 <p >⚠ En Python 2 hay dos clases de inputs: <em>input()</em> permite diferenciar entre números y texto si hacemos uso o no de las comillas, y <em>raw_input()</em> convierte todo a texto.  En Python 3, la función <em>input()</em> devuelve todo como texto (sustituyendo a <em>raw_input()</em>) y tendremos que usar funciones de conversión. Si queremos que el procedimiento sea automático y sea Python quien decida (similar al <em>input()</em> de Python 2) tendremos que usar la función <em>input()</em> dentro de la función <em>eval()</em>. </p>
   
-</details>
+<br></details>
 
 ## Errores ⚠
 
@@ -554,7 +554,7 @@ print(media(num1,num2))</pre>
   
 <figure ><table><tbody><tr><td>SyntaxError</td><td>El código está mal escrito y tiene errores de sintaxis</td></tr><tr><td>AttributeError</td><td>Intentamos un método sobre un objeto que no lo permite (como aplicar un método de lista a un número)</td></tr><tr><td>ValueError:</td><td>Usamos un valor incompatible dentro de una función </td></tr><tr><td>IndexError</td><td>Cuando se señala una posición que no existe en una cadena o lista</td></tr><tr><td>NameError</td><td>Se llama a una variable que no está asignada o función que no existe</td></tr><tr><td>IOError</td><td>Cuando se intenta abrir un archivo no existe</td></tr><tr><td>TypeError</td><td>Cuando hacemos operaciones con valores incompatibles (como tratar de sumar una cadena y un número)</td></tr><tr><td>ZeroDivisionError</td><td>Intentamos dividir entre 0</td></tr><tr><td>KeyError:</td><td>Cuando falta una llave en un diccionario y queremos acceder a ella</td></tr></tbody></table></figure>
  
-</details>
+<br></details>
 
 <details>
   <summary><strong>Errores y excepciones</strong></summary><br>
@@ -573,7 +573,7 @@ print(media(num1,num2))</pre>
 <p>Esto es porque el input del usuario se intenta a convertir a float para que no existan errores en las operaciones que calculan la media, pero como contamos en el apartado de la <a href="https://programapa.wordpress.com/2021/01/23/fundamentos-de-python-1-variables-clases-funciones-y-metodos/#convertir_variables">conversión de variables</a>, no se puede transformar caracteres a números.</p>
 <p>¿Cómo se <strong>evitan</strong> esta clase de errores? A través del <strong>control de excepciones</strong> y las <strong>validaciones</strong>.</p>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Control de excepciones</strong></summary><br>
  
@@ -598,7 +598,7 @@ finally:
 except:
    print('Algo ha fallado')</pre>
   
-</details>
+<br></details>
 <details>
   <summary><strong>Validaciones y contadores</strong></summary><br>
  
@@ -640,7 +640,7 @@ while True:
     else:
         break</pre>
   
-</details>
+<br></details>
 
 ## ¡Sígueme!
-[![](https://img.shields.io/badge/@progra_mapa-blue?style=for-the-badge&labelColor=blue&logo=Twitter&logoColor=white)](https://twitter.com/progra_mapa)[![](https://img.shields.io/badge/PrograMapa-grey?style=for-the-badge&logo=wordpress)](https://programapa.wordpress.com)[![](https://img.shields.io/badge/Roberto-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/robertojl)]
+[![](https://img.shields.io/badge/@progra_mapa-blue?style=for-the-badge&labelColor=blue&logo=Twitter&logoColor=white)](https://twitter.com/progra_mapa)[![](https://img.shields.io/badge/PrograMapa-grey?style=for-the-badge&logo=wordpress)](https://programapa.wordpress.com)[![](https://img.shields.io/badge/Roberto-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/robertojl)
