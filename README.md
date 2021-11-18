@@ -374,7 +374,7 @@ while a &lt; 5:
   
 <br></details>
 
-## Acceso a los datos 🗝
+## Acceso a los datos 🚪
 
 <details>
   <summary><strong>Rutas y codificación de caracteres</strong></summary><br>
