@@ -3,7 +3,6 @@
 
 Por Rober J
 
-<br>
 
 ## Introducción 🐍
 
