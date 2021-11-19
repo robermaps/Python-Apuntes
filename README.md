@@ -4,7 +4,7 @@
 Por Rober J
 
 
-## Introducción 🐍
+## 🐍 Introducción
 
 <details>
   <summary><strong>Comenzar con Python</strong></summary><br>
@@ -91,7 +91,7 @@ print(A)
   
 <br></details>
 
-## Datos 🧮
+## 🧮 Datos 
 
 <details>
   <summary><strong>Números</strong></summary><br>
@@ -257,7 +257,7 @@ print(type(numero))
   
 <br></details>
 
-## Estructuras de control ⚙
+## ⚙️ Estructuras de control 
 
 <details>
   <summary><strong>Estructuras if-else </strong></summary><br>
@@ -375,7 +375,7 @@ while a &lt; 5:
   
 <br></details>
 
-## Acceso a los datos 🚪
+## 🚪 Acceso a los datos
 
 <details>
   <summary><strong>Rutas y codificación de caracteres</strong></summary><br>
@@ -548,7 +548,7 @@ print(media(num1,num2))</pre>
   
 <br></details>
 
-## Errores ⚠
+## ⚠️ Errores
 
 <details>
   <summary><strong>Mensajes de error</strong></summary><br>
@@ -643,5 +643,5 @@ while True:
   
 <br></details>
 
-## ¡Sígueme! 🌐
+## 🌐 ¡Sígueme!
 [![](https://img.shields.io/badge/@progra_mapa-blue?style=for-the-badge&labelColor=blue&logo=Twitter&logoColor=white)](https://twitter.com/progra_mapa)[![](https://img.shields.io/badge/PrograMapa-grey?style=for-the-badge&logo=wordpress)](https://programapa.wordpress.com)[![](https://img.shields.io/badge/Roberto-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/robertojl)
