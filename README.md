@@ -1,4 +1,4 @@
-# Apuntes de Python3
+# Apuntes de Python 3
 <img src="https://programapa.files.wordpress.com/2021/01/fundamentos-1-python-1.png" width="230" height="200" text-align: center>
 
 Por Rober J
