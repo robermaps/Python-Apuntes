@@ -6,6 +6,13 @@ Por Rober J
 [![](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=github)](https://roberer.github.io)[![](https://img.shields.io/badge/@roberer_-white?style=for-the-badge&labelColor=blue&logo=Twitter&logoColor=white)](https://twitter.com/roberer_)[![](https://img.shields.io/badge/Roberto-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/robertojl)
 
 
+## 👩‍💻 Scripts
+
+<details>
+  <summary><strong>Ejemplos de código</strong></summary><br>
+https://github.com/roberer/Python-Apuntes/tree/main/scripts
+  
+</details>
 
 ## 🐍 Introducción
 
@@ -646,10 +653,3 @@ while True:
   
 <br></details>
 
-## 👩‍💻 Scripts
-
-<details>
-  <summary><strong>Ejemplos de código</strong></summary><br>
-https://github.com/roberer/python-apuntes/scripts
-  
-</details>
