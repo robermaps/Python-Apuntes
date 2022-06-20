@@ -645,3 +645,11 @@ while True:
         break</pre>
   
 <br></details>
+
+## 👩‍💻 Scripts
+
+<details>
+  <summary><strong>Ejemplos de código</strong></summary><br>
+https://github.com/roberer/python-apuntes/scripts
+  
+</details>
